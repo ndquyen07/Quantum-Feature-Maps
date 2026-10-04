@@ -1,0 +1,46 @@
+# ---- Kept locally, not published ---------------------------------------------
+# Experiment outputs (models, init thetas, accuracy summaries)
+results_*/
+
+# Local test scripts and their scratch output
+smoke_test.py
+test_spsa.py
+smoke_results/
+
+# SLURM logs, in case a job writes them next to the scripts
+slurm-*.out
+slurm-*.err
+logs/
+
+# ---- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# ---- Jupyter -----------------------------------------------------------------
+.ipynb_checkpoints/
+
+# ---- Environments ------------------------------------------------------------
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Editors / tools ---------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---- OS ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
